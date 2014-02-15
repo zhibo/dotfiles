@@ -3,6 +3,8 @@ export CLICOLOR=1
 export LSCOLORS=gxfxaxdxcxegedabagacad
 export PS1='\[\e[32;1m\]\u@ \w\n\[\e[35;1m\]\$ >>>\[\e[0m\] '
 set -o vi
+export TERM="xterm-256color"
+alias vim='TERM=screen-256color vim'
 
 ts(){
 curl -s \

@@ -1,4 +1,4 @@
-export PATH=/usr/local/share/python:/usr/local/sbin:/Users/Bo/Scripts:/Applications/MAMP/Library/bin:$PATH
+export PATH=/usr/local/share/python:/usr/local/sbin:/Users/bozhi/Scripts:/usr/texbin/:$PATH
 export CLICOLOR=1
 export LSCOLORS=gxfxaxdxcxegedabagacad
 export PS1='\[\e[32;1m\]\u@ \w\n\[\e[35;1m\]\$ >>>\[\e[0m\] '

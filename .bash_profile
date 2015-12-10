@@ -1,7 +1,8 @@
 export PATH=/usr/local/share/python:/usr/local/sbin:/Users/bozhi/Scripts:/usr/texbin/:$PATH
 export CLICOLOR=1
 export LSCOLORS=gxfxaxdxcxegedabagacad
-export PS1='\[\e[32;1m\]\u@ \w\n\[\e[35;1m\]\$ >>>\[\e[0m\] '
+#export PS1='\[\e[32;1m\]\u@ \w\n\[\e[35;1m\]\$ >>>\[\e[0m\] '
+export PS1='\[\e[32;1m\]\u@ \[\e[34;1m\]\w \[\e[30;1m\]-`date +%T`-\n\[\e[35;1m\]\$ >>>\[\e[0m\] '
 set -o vi
 export TERM="xterm-256color"
 alias vim='TERM=screen-256color vim'
